@@ -10,4 +10,18 @@
 
     <packaging>pom</packaging>
 
+    <modules>
+        <module>jpa-entities</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEnforcing>UTF-8</project.reporting.outputEnforcing>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
+
+
 </project>
