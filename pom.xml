@@ -13,6 +13,7 @@
     <modules>
         <module>jpa-entities</module>
         <module>from-intelij</module>
+        <module>web-api</module>
     </modules>
 
     <properties>
